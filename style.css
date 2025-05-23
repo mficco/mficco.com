@@ -1,6 +1,14 @@
 body {
-  font-family:monospace;
+  font-family: 'Inter', sans-serif;
+  max-width: 700px;
+  margin: 2em auto;
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 0 1em;
+  color: #111;
+  background-color: #fff;
 }
+
 h1 {
-  color: blue;
+  font-weight: 600;
 }
