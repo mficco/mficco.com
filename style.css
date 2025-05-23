@@ -3,7 +3,7 @@
 
 /* Base layout */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   max-width: 700px;
   margin: 2em auto;
   padding: 0 1em;
