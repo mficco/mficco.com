@@ -1,7 +1,5 @@
-/* Import Inter font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap');
 
-/* Base layout */
 body {
   font-family: 'Roboto Mono', monospace;
   max-width: 700px;
@@ -13,7 +11,6 @@ body {
   background-color: #fff;
 }
 
-/* Right-aligned nav bar */
 nav {
   text-align: right;
   margin-bottom: 2em;
@@ -30,7 +27,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Headings */
 h1 {
   font-weight: 600;
 }
