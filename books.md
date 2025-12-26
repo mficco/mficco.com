@@ -20,3 +20,5 @@ permalink: /books/
 10. Covenant of Water - Abraham Verghese
 11. The Alice Network - Kate Quinn
 12. The Bee Sting - Paul Murray
+13. 1929 - Andrew Ross Sorkin
+14. The Road to Character - David Brooks
