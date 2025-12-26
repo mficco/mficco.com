@@ -1,7 +1,7 @@
 # mficco.com - Personal Blog Site with Jekyll
 
 ## Overview
-A personal website with an easily updatable blog system powered by Jekyll. Write blog posts in simple markdown, and Jekyll automatically generates your website.
+A personal website with an easily updatable blog system powered by Jekyll. Blog posts are published in your Writing section. Write posts in simple markdown, and Jekyll automatically generates your website.
 
 ## Project Structure
 ```
@@ -13,8 +13,7 @@ A personal website with an easily updatable blog system powered by Jekyll. Write
 ├── Gemfile              # Ruby dependencies
 ├── style.css            # Shared stylesheet
 ├── index.md             # Home page
-├── blog.md              # Blog page (lists all posts)
-├── writing.md           # Writing page
+├── writing.md           # Writing page (with blog posts)
 ├── books.md             # Books page
 └── about.md             # About page
 ```
@@ -46,7 +45,7 @@ You can use:
 
 ### Step 3: Jekyll automatically rebuilds
 
-Jekyll watches for changes and automatically rebuilds your website. Your post appears on `/blog/` immediately.
+Jekyll watches for changes and automatically rebuilds your website. Your post appears on `/writing/` immediately.
 
 ## File Naming Convention
 
@@ -57,15 +56,14 @@ The filename format is critical: `YYYY-MM-DD-title.md`
 - title = Your post title (use hyphens instead of spaces)
 
 ### Examples:
-- `2025-01-15-welcome-to-my-blog.md`
+- `2025-01-15-welcome-to-my-thoughts.md`
 - `2025-02-20-my-thoughts-on-reading.md`
 - `2025-03-05-a-great-day.md`
 
 ## Updating Static Pages
 
-To edit your home page, writing, books, or about pages, simply edit:
+To edit your home page, books, or about pages, simply edit:
 - Home: `index.md`
-- Writing: `writing.md`
 - Books: `books.md`
 - About: `about.md`
 
@@ -74,8 +72,7 @@ Jekyll automatically regenerates the site when you save.
 ## Website Pages
 
 - **Home** (`/`) - Your introduction
-- **Blog** (`/blog/`) - All blog posts listed with newest first
-- **Writing** (`/writing/`) - Writing page content
+- **Writing** (`/writing/`) - Blog posts listed here (newest first)
 - **Books** (`/books/`) - Books list
 - **About** (`/about/`) - About you
 
@@ -120,7 +117,7 @@ Run `bundle install` if you ever need to update dependencies.
 ## Tips
 
 - Blog posts are processed in reverse chronological order (newest first)
-- Jekyll includes the post excerpt (first paragraph) on the blog listing page
+- Jekyll includes the post excerpt (first paragraph) on the writing page
 - The site rebuilds automatically when you save files
 - Use proper markdown syntax for best formatting results
 - Keep filenames simple (no special characters except hyphens)

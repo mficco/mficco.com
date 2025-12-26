@@ -9,4 +9,4 @@ permalink: /:categories/:year/:month/:day/:title/
 collections:
   posts:
     output: true
-    permalink: /blog/:title/
+    permalink: /writing/:title/
