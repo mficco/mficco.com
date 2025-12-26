@@ -1,0 +1,12 @@
+title: mficco.com
+description: Personal website
+baseurl: ""
+url: "http://localhost:5000"
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/

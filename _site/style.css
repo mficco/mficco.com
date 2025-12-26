@@ -1,0 +1,41 @@
+
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 0 1em;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #111;
+  background-color: #fff;
+}
+
+nav {
+  text-align: right;
+  margin-bottom: 2em;
+  font-size: 16px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+p {
+  word-spacing: 4px;
+}
+
+
+h1 {
+  font-weight: 600;
+}
