@@ -4,15 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} - mficco.com</title>
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
   <nav>
-    <a href="/">Home</a>
-    <a href="/writing/">Writing</a>
-    <a href="/books/">Books</a>
-    <a href="/about/">About</a>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a href="{{ '/writing/' | relative_url }}">Writing</a>
+    <a href="{{ '/books/' | relative_url }}">Books</a>
+    <a href="{{ '/about/' | relative_url }}">About</a>
   </nav>
 
   <main>
